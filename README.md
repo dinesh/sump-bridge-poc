@@ -19,7 +19,6 @@
 
 It create a promethues registry and register all required metrics on it. Then it creates a background process to submit those metrics to Sumo collector periodically. The bridge is located at `pkg/bridge/sumo.go`.
 
-### Things to do
+Here is an example in the Sumologic dashboard -
 
-I can see the metrics are being pushed to Sumo but not visible in the Sumo UI. Maybe not getting ingested correctly or getting filtered via collector rules. Something need to investigate.
-
+![metrics](assets/sumo-poc-metrics.png)
